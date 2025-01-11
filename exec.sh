@@ -16,3 +16,8 @@ ansible testserver -b -m service -a "name=nginx state=restarted"
 
 vagrant destroy -f
 
+git config --global user.email "ker10epere@gmail.com"
+git config --global user.name "Ker Tenepere"
+
+git config --global credential.helper store
+

@@ -25,3 +25,10 @@ git config --global credential.helper store
 192.168.56.2
 
 ssh -i '.vagrant/machines/default/virtualbox/private_key' vagrant@192.168.56.2
+
+# check ansible groups
+ansible-inventory --graph
+
+# running playbook
+ansible-playbook webservers.yml
+

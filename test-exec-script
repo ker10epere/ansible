@@ -1,0 +1,8 @@
+# shebang looks for the Program Loader specified and uses it to parse for the rest of the file
+# use a ( chmod +x <file> ) to make a file with shebang executable. 
+# after it becomes executable, you can execute it, and it will use the Program Loader to parse the rest of the lines
+# sudo chmod +x ./test-exec-script
+
+#!/usr/bin/env bash
+
+echo 123

@@ -32,3 +32,6 @@ ansible-inventory --graph
 # running playbook
 ansible-playbook webservers.yml
 
+ansible-doc copy
+
+sudo chmod +x ./test-exec-script
